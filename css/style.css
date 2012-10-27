@@ -1,0 +1,162 @@
+body {
+	background-color: #4cbb17; /* kelly green */
+	font-family: helvetica, ariel;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 960px;
+	height: auto;
+	background-color: white;
+	   -moz-box-shadow: 0 0 7px #0c371d; /* hunter green */
+	-webkit-box-shadow: 0 0 7px #0c371d; /* hunter green */
+		box-shadow: 0 0 7px #0c371d; /* hunter green */
+}
+
+header {
+	padding-top: 20px;
+}
+
+header h3 a {
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+	color: #444;
+	font-weight: 200;
+	font-size: 1.7em;
+	margin-left: 40px;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 20px;
+	color: #aaa;
+	font-size: small;
+	margin-top: 30px;
+}
+
+.shadow {
+	   -moz-box-shadow: 0 0 7px #ccc;
+	-webkit-box-shadow: 0 0 7px #ccc;
+		box-shadow: 0 0 7px #ccc;
+}
+
+hr {
+	background-color: #eee;
+	border-top: 1px solid #ccc;
+}
+
+div.navigation {
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+nav {
+	margin-left: 75px;
+}
+
+nav .button-link {
+	padding: 10px 15px;
+	background: white;
+	color: #aaa;
+	text-decoration: none;
+}
+
+nav .button-link:hover {
+	color: #555;
+	   -moz-box-shadow: 0 8px 5px -6px #ccc;
+	-webkit-box-shadow: 0 8px 5px -6px #ccc;
+		box-shadow: 0 8px 5px -6px #ccc;
+}
+
+.card {
+	margin: 4px;
+	padding: 10px;
+	border: 2px solid #bbb;
+	font-size: 0.8em;
+	overflow: hidden;
+	text-align: left;
+}
+
+.card-container {
+	text-align: center;
+}
+
+.card-container .container {
+	margin: 15px;
+	width: 400px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.card-container .container:hover {
+	   -moz-box-shadow: 0 0 5px #4cbb17;
+	-webkit-box-shadow: 0 0 5px #0c371d;/*4cbb17;*/
+		box-shadow: 0 0 10px #4cbb17;/*0c371d;*/
+}
+
+.card-container div.shadow {
+	padding: 1px;
+}
+
+.card dl {
+	float: left;
+}
+
+.card dt, dd {
+	display: block;
+	float: left;
+	
+	border-top: 1px solid #ccc;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.card dt {
+	clear: both;
+	width: 80px;
+}
+
+.card dt:first-child, dd:nth-child(2) {
+	border-top: none;
+	margin-top: 0px;
+}
+
+.card img {
+	float: left;
+	margin-right: 25px;
+}
+
+.card table {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.card tr {
+	margin: 10px;
+}
+
+.card th, td {
+	padding: 4px;
+}
+
+.card table td {
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+.card table td.last {
+	width: 99%;
+	white-space: normal;
+}
+
+.card .basic {
+}
+
+.card .meta {
+	display: none;
+}
