@@ -1,15 +1,15 @@
 /* Colors
- * #002f5f      Primary         Blue
- * #004165      Secondary       Blue
- * #5c7f92      Secondary       Light Blue
- * #eeaf30      Secondary       Gold
- * #37424a      Secondary       Gray
- * #dcd6b2      Secondary       Cream
- * #1e1e1e      Secondary       Black
+ * #002f5f      Blue
+ * #eeaf30      Gold
+ * #37424a      Gray
+ * #1e1e1e      Black
+ * #4cbb17	Kelly Green
+ * #0c371d	Hunter Green
+ * #138808	India Green
  */
 
 body {
-	background-color: #002f5f;
+	background-color: #4cbb17;
 	font-family: helvetica, ariel;
 }
 
@@ -18,9 +18,9 @@ body {
 	width: 960px;
 	height: auto;
 	background-color: white;
-	   -moz-box-shadow: 0 0 7px #070047;
-	-webkit-box-shadow: 0 0 7px #070047;
-		box-shadow: 0 0 7px #070047;
+	   -moz-box-shadow: 0 0 7px 1px #138808;
+	-webkit-box-shadow: 0 0 7px 1px #138808;
+		box-shadow: 0 0 7px 1px #138808;
 }
 
 header {
@@ -129,13 +129,13 @@ dl dt {
 	float: left;
 	padding: 5px;
 	width: 75px;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #ebebeb;
 }
 
 dl dd {
 	margin: 2px 0;
 	padding: 5px 0;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #ebebeb;
 	overflow: hidden;
 }
 
