@@ -24,16 +24,13 @@ body {
 }
 
 header {
-	font: 1.7em 'futura book', sans-serif;
+	font-size: 1.7em;
+	font-family: "Arial", sans-serif;
 	text-transform: uppercase;
-	color: #37424a;
+	color: #aaa;
 	vertical-align: middle;
 	margin-left: 120px;
 	padding-top: 25px;
-}
-
-header a {
-	text-decoration: none;
 }
 
 a {
