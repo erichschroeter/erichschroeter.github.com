@@ -1,0 +1,66 @@
+{
+   "type": "dir",
+   "name": "~",
+   "contents": [
+      {
+         "type": "text",
+         "name": "README",
+         "contents": "My name is Erich Schroeter. I am a Software Engineer.\n"
+      },
+      {
+         "type": "dir",
+         "name": "projects",
+         "contents": [
+            {
+               "type": "exec",
+               "name": "safeword",
+               "contents": "https://github.com/erichschroeter/safeword",
+               "description": "A credential manager library and CLI."
+            },
+            {
+               "type": "exec",
+               "name": "reqtangle",
+               "contents": "https://github.com/erichschroeter/reqtangle",
+               "description": "A web based requirement manager."
+            }
+         ]
+      },
+      {
+         "type": "dir",
+         "name": "beer",
+         "contents": [
+            {
+               "type": "text",
+               "name": "batch3.rst",
+               "contents": ":Brewed: 2013-08-03\n:OG: 1.052\n:Bottled: 2013-08-17\n:FG: 1.018\n\n:Cap: blue\n\n+-------------------------+-----------------------+-----------------------------------+\n| Ingredient              | Quantity              | Description                       |\n+=========================+=======================+===================================+\n| Amber Malt Syrup        | 6 lbs (0.5 gal)       | NortherBrewerAmberMaltSyrup_      |\n+-------------------------+-----------------------+-----------------------------------+\n| English Medium Crystal  | 1 lb                  | crushed                           |\n+-------------------------+-----------------------+-----------------------------------+\n| Au Topaz Hop Pellets    | 1 oz x 3              | - alpha: 16.5%                    |\n|                         |                       | - beta: 6.5%                      |\n|                         |                       | - aroma: strong, fruity, pleasant |\n+-------------------------+-----------------------+-----------------------------------+\n| Windsor British-style   | e11 g (.388 oz)       |                                   |\n| Beer Yeast              |                       |                                   |\n+-------------------------+-----------------------+-----------------------------------+\n\n.. image:: images/empty.gif\n\n.. _NortherBrewerAmberMaltSyrup: http://www.northernbrewer.com/shop/northern-brewer-amber-malt-syrup.html\n"
+            },
+            {
+               "type": "text",
+               "name": "batch2.rst",
+               "contents": ":Brewed: 2012-10-20\n:OG: 1.037\n:Bottled: 2012-11-13\n:FG: 1.020\n\n:Cap: orange\n\n+-------------------------+-----------------------+----------------------------------+\n| Ingredient              | Quantity              | Description                      |\n+=========================+=======================+==================================+\n| Amber Malt Syrup        | 6 lbs (0.5 gal)       | NortherBrewerAmberMaltSyrup_     |\n+-------------------------+-----------------------+----------------------------------+\n| Briess Caramel 120 Malt | 1 lb                  | crushed                          |\n+-------------------------+-----------------------+----------------------------------+\n| German Opal Hop Pellets | 1 oz x 2              | - alpha: 6.3%                    |\n|                         |                       | - beta: 6.6%                     |\n|                         |                       | - aroma: balanced fruity, hoppy, |\n|                         |                       |   flowery citrusy and herbal     |\n|                         |                       |   characteristics                |\n|                         |                       | - style: summer ales, light      |\n|                         |                       |   ales, belgian-style ales,      |\n|                         |                       |   wheat                          |\n+-------------------------+-----------------------+----------------------------------+\n| German Brewer's Gold    | 1 oz                  | - alpha: 6.2%                    |\n| Hop Pellets             |                       | - beta: 3.6%                     |\n|                         |                       | - aroma: blackcurrent, fruity,   |\n|                         |                       |   spicy                          |\n|                         |                       | - style: ales, German lagers,    |\n|                         |                       |   lambic, saeson, Blere de Garde |\n+-------------------------+-----------------------+----------------------------------+\n\n.. image:: images/empty.gif\n\n.. _NortherBrewerAmberMaltSyrup: http://www.northernbrewer.com/shop/northern-brewer-amber-malt-syrup.html\n"
+            },
+            {
+               "type": "text",
+               "name": "batch1.rst",
+               "contents": ":Brewed: 2012-09-15\n:OG: 1.025\n:Bottled: 2012-10-06\n:FG: 1.015\n\n:Cap: green\n\n+--------------------+-----------------------+----------------------------------+\n| Ingredient         | Quantity              | Description                      |\n+====================+=======================+==================================+\n| Dark Malt Syrup    | 3 lbs (0.25 gal)      | NortherBrewerDarkMaltSyrup_      |\n+--------------------+-----------------------+----------------------------------+\n| English Black Malt | 1 lb                  | crushed                          |\n+--------------------+-----------------------+----------------------------------+\n| Hop Pellets        | 1 oz x 3              | - alpha: 13.3%                   |\n|                    |                       | - beta: 4.4%                     |\n|                    |                       | - aroma: mild, herbal & pleasant |\n|                    |                       | - style: ale, stout, barley wine |\n+--------------------+-----------------------+----------------------------------+\n\n.. image:: images/green.2012_09_15.png\n\n.. _NortherBrewerDarkMaltSyrup: http://www.northernbrewer.com/shop/northern-brewer-dark-malt-syrup.html\n"
+            }
+         ]
+      },
+      {
+         "type": "dir",
+         "name": "images",
+         "contents": [
+            {
+               "type": "img",
+               "name": "empty.gif",
+               "contents": "/images/empty.gif"
+            },
+            {
+               "type": "img",
+               "name": "green.2012_09_15.png",
+               "contents": "/images/green.2012_09_15.png"
+            }
+         ]
+      }
+   ]
+}
