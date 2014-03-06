@@ -13,15 +13,15 @@
          "contents": [
             {
                "type": "exec",
-               "name": "safeword",
-               "contents": "https://github.com/erichschroeter/safeword",
-               "description": "A credential manager library and CLI."
-            },
-            {
-               "type": "exec",
                "name": "reqtangle",
                "contents": "https://github.com/erichschroeter/reqtangle",
                "description": "A web based requirement manager."
+            },
+            {
+               "type": "exec",
+               "name": "safeword",
+               "contents": "https://github.com/erichschroeter/safeword",
+               "description": "A credential manager library and CLI."
             }
          ]
       },
