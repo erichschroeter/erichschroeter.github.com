@@ -5,7 +5,7 @@
       {
          "type": "text",
          "name": "README",
-         "contents": "My name is Erich Schroeter. I am a Software Engineer.\n"
+         "contents": "My name is Erich Schroeter. I am a Software Engineer.\n\nThanks to <a class=\"exec\" href=\"http://clarkduvall.com\">Clark DuVall</a> for creating <a class=\"exec\" href=\"https://github.com/clarkduvall/jsterm\">jsterm</a>.\n"
       },
       {
          "type": "dir",
